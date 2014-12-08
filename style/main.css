@@ -308,41 +308,57 @@ hr {
   .tile .tile-inner {
     border-radius: 3px;
     background: #eee4da;
-    text-align: center;
+    text-align: right;    
     font-weight: bold;
-    z-index: 10;
-    font-size: 55px; }
+    z-index: 60;
+    font-size: 30px; }
   .tile.tile-2 .tile-inner {
     background: #eee4da;
+    color: #f9f6f2;
+    background-image: url('img/ryu.jpg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
     background: #ede0c8;
+    color: #232528;
+    background-image: url('img/ken.jpg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
+    background: #f2b179;
     color: #f9f6f2;
-    background: #f2b179; }
+    background-image: url('img/blanka.jpg');
+     }
   .tile.tile-16 .tile-inner {
     color: #f9f6f2;
-    background: #f59563; }
+    background: #f59563;
+    background-image: url('img/honda.jpg');
+     }
   .tile.tile-32 .tile-inner {
     color: #f9f6f2;
-    background: #f67c5f; }
+    background: #f67c5f;
+    background-image: url('img/dahlsim.jpg');
+     }
   .tile.tile-64 .tile-inner {
     color: #f9f6f2;
-    background: #f65e3b; }
+    background: #f65e3b;
+    background-image: url('img/chunli.jpg');
+     }
   .tile.tile-128 .tile-inner {
-    color: #f9f6f2;
+    color: #232528;
     background: #edcf72;
+    background-image: url('img/vega.jpg');
+    
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
-    font-size: 45px; }
+    font-size: 30px; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
-        font-size: 25px; } }
+        font-size: 15px; } }
   .tile.tile-256 .tile-inner {
     color: #f9f6f2;
     background: #edcc61;
+    background-image: url('img/zang.jpg');
+    
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
-    font-size: 45px; }
+    font-size: 25px; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
         font-size: 25px; } }
